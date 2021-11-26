@@ -1,6 +1,6 @@
 const dialog = require("../pageobjects/dialog.page.js");
 
-describe("My Login page", () => {
+describe("Invalid Login attempt", () => {
   before(async () => {
     //Selenium opens browser
     await dialog.open();
